@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Sg6-Cu-ExR">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First-->
+        <scene sceneID="hNz-n2-bh7">
+            <objects>
+                <viewController storyboardIdentifier="fuck2" id="9pv-A4-QxB" customClass="FirstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="suq-gg-egv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="8i3-S9-xEL">
+                                <rect key="frame" x="168" y="560" width="39" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="Jp4-1C-MVz"/>
+                                </constraints>
+                                <color key="pageIndicatorTintColor" red="0.52941176470588236" green="0.71372549019607845" blue="0.94509803921568625" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="0.1764705882352941" green="0.46666666666666667" blue="0.93333333333333335" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzr-bh-De9">
+                                <rect key="frame" x="141.5" y="603" width="92" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="QaF-7q-lgH"/>
+                                    <constraint firstAttribute="width" constant="92" id="ZSL-Pw-0v3"/>
+                                </constraints>
+                                <state key="normal" title="Выбрать"/>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="88c-AX-WMl">
+                                <rect key="frame" x="0.0" y="566" width="414" height="161"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Pd1-BU-9BG"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="oLd-On-q3S"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="KYN-Sh-Xf9"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="88c-AX-WMl" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="4WY-BS-9Pl"/>
+                            <constraint firstItem="jzr-bh-De9" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="5bm-Zv-fFV"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="jzr-bh-De9" secondAttribute="bottom" constant="24" id="Ea4-69-rBJ"/>
+                            <constraint firstItem="88c-AX-WMl" firstAttribute="trailing" secondItem="PQr-Ze-W5v" secondAttribute="trailing" id="ISQ-Tr-aYX"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="suq-gg-egv" secondAttribute="trailing" id="VcO-f4-lMu"/>
+                            <constraint firstItem="suq-gg-egv" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" id="eQr-PS-kbk"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="suq-gg-egv" secondAttribute="bottom" id="g8I-sf-hm8"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="8i3-S9-xEL" secondAttribute="bottom" constant="80" id="jJW-ma-CQ1"/>
+                            <constraint firstItem="8i3-S9-xEL" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="o2W-SK-N7B"/>
+                            <constraint firstItem="suq-gg-egv" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" id="tim-xp-Cyw"/>
+                            <constraint firstItem="8i3-S9-xEL" firstAttribute="top" secondItem="88c-AX-WMl" secondAttribute="bottom" id="u1k-xg-O8g"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="MapView" destination="suq-gg-egv" id="Ouh-F8-yMb"/>
+                        <outlet property="continueButton" destination="jzr-bh-De9" id="5Kx-zA-f6D"/>
+                        <outlet property="pageControl" destination="8i3-S9-xEL" id="zaX-HM-y8v"/>
+                        <outlet property="scrollView" destination="88c-AX-WMl" id="BaO-ha-c5t"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.27536231884062" y="-320.08928571428572"/>
+        </scene>
+        <!--Что вам интересно?-->
+        <scene sceneID="wg7-f3-ORb">
+            <objects>
+                <viewController storyboardIdentifier="fuck" id="8rJ-Kc-sve" customClass="SecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zxS-bK-JaF">
+                                <rect key="frame" x="23" y="494" width="328" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </slider>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lC8-Wg-kiV">
+                                <rect key="frame" x="43" y="72" width="289" height="325"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ответ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDm-5M-3j1">
+                                <rect key="frame" x="-20" y="447" width="414" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="27"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Вопрос" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMb-Qw-OkO">
+                                <rect key="frame" x="-20" y="418" width="414" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ответьте на несколько вопросов о Ваших предпочтениях, чтобы сделать персональные рекомендации лучше" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N9c-BI-Yik">
+                                <rect key="frame" x="1" y="539" width="374" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="15"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Что вам интересно?" largeTitleDisplayMode="always" id="UdC-l3-458">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="FzE-i3-5td"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="answer" destination="hDm-5M-3j1" id="dbs-lJ-jne"/>
+                        <outlet property="imageView" destination="lC8-Wg-kiV" id="RbF-JU-Ggt"/>
+                        <outlet property="question" destination="tMb-Qw-OkO" id="Zjf-fm-Riz"/>
+                        <outlet property="slider" destination="zxS-bK-JaF" id="ELT-Ly-fnA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1658.4000000000001" y="359.37031484257875"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3648" y="54"/>
+        </scene>
+        <!--Second-->
+        <scene sceneID="WbH-ie-fXY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Sg6-Cu-ExR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KLo-qD-L00">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="s1r-gb-d0W"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JHv-vx-OBu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.27536231884062" y="359.59821428571428"/>
+        </scene>
+        <!--Instagram View Controller-->
+        <scene sceneID="qwo-ed-jxZ">
+            <objects>
+                <viewController storyboardIdentifier="instavc" id="f2y-X1-2Ai" customClass="InstagramViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qj3-p8-26N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="angryimg-2" translatesAutoresizingMaskIntoConstraints="NO" id="22n-20-d8s">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="672"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Не упустите возможность добавить уникальный стикер этого места и поделиться этим с друзьями!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3Y-je-360">
+                                <rect key="frame" x="1" y="253" width="374" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0da-6N-Ejl">
+                                <rect key="frame" x="195" y="667" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Стикеры!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYp-Vh-Nq5">
+                                <rect key="frame" x="94" y="191" width="187" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="37"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l8S-Pm-pth">
+                                <rect key="frame" x="46" y="69" width="285" height="430"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="omg" translatesAutoresizingMaskIntoConstraints="NO" id="FRc-2f-Y3K">
+                                <rect key="frame" x="158" y="17" width="201" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="camera.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9Zj-vb-Bi2">
+                                <rect key="frame" x="116" y="534.5" width="143" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Lzo-gK-Czl"/>
+                    </view>
+                    <connections>
+                        <outlet property="body" destination="Q3Y-je-360" id="fuZ-lT-RKv"/>
+                        <outlet property="header" destination="HYp-Vh-Nq5" id="YlF-rN-1us"/>
+                        <outlet property="image" destination="9Zj-vb-Bi2" id="eVN-pk-aYf"/>
+                        <outlet property="result" destination="l8S-Pm-pth" id="jSL-TO-nc5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XhI-Hz-qtG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="1051.1244377811095"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="angryimg-2" width="2000" height="2000"/>
+        <image name="camera.fill" catalog="system" width="64" height="48"/>
+        <image name="first" width="30" height="30"/>
+        <image name="omg" width="1024" height="714"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>

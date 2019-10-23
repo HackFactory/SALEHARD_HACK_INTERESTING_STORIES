@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A607AB236010730081EFBB /* DataData.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A607AA236010730081EFBB /* DataData.m */; };
+		A0A607AD236012170081EFBB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A607AC236012170081EFBB /* data.json */; };
+		A0A607AF236033EB0081EFBB /* data2.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A607AE236033EB0081EFBB /* data2.json */; };
+		F520EC5A235F920D00C3EF3F /* InstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F520EC59235F920D00C3EF3F /* InstagramViewController.m */; };
+		F54AD698235FFADA00EB9097 /* AchievmentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F54AD68C235FFADA00EB9097 /* AchievmentManager.m */; };
+		F54AD699235FFADA00EB9097 /* EpisodeQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54AD68F235FFADA00EB9097 /* EpisodeQuizViewController.m */; };
+		F54AD69B235FFADA00EB9097 /* RouteMapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54AD692235FFADA00EB9097 /* RouteMapViewViewController.m */; };
+		F54AD69C235FFADA00EB9097 /* TimelineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F54AD693235FFADA00EB9097 /* TimelineTableViewCell.m */; };
+		F54AD6A5235FFAE700EB9097 /* AchievmentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F54AD6A0235FFAE700EB9097 /* AchievmentTableViewCell.m */; };
+		F54AD6A6235FFAE700EB9097 /* AchievmentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F54AD6A2235FFAE700EB9097 /* AchievmentTableViewController.m */; };
+		F54AD6A8235FFB2C00EB9097 /* MainMax.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F54AD6A7235FFB2C00EB9097 /* MainMax.storyboard */; };
+		F568405B236047A2006AA482 /* EpisodeInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5684057236047A2006AA482 /* EpisodeInfoViewController.m */; };
+		F568405C236047A2006AA482 /* MamashaCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F5684058236047A2006AA482 /* MamashaCache.m */; };
+		F568405D236047A2006AA482 /* TimelineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F568405A236047A2006AA482 /* TimelineTableViewController.m */; };
+		F568405F2360485B006AA482 /* EpisodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F568405E2360485B006AA482 /* EpisodeViewController.m */; };
+		F58D9469235EFF070016632F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58D9468235EFF070016632F /* AppDelegate.m */; };
+		F58D946C235EFF070016632F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F58D946B235EFF070016632F /* SceneDelegate.m */; };
+		F58D946F235EFF070016632F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58D946E235EFF070016632F /* FirstViewController.m */; };
+		F58D9472235EFF070016632F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F58D9471235EFF070016632F /* SecondViewController.m */; };
+		F58D9475235EFF070016632F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58D9473235EFF070016632F /* Main.storyboard */; };
+		F58D9477235EFF080016632F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58D9476235EFF080016632F /* Assets.xcassets */; };
+		F58D947A235EFF080016632F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58D9478235EFF080016632F /* LaunchScreen.storyboard */; };
+		F58D947D235EFF080016632F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F58D947C235EFF080016632F /* main.m */; };
+		F58D9484235F07510016632F /* RouteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58D9483235F07510016632F /* RouteView.xib */; };
+		F58D9487235F07A20016632F /* RouteView.m in Sources */ = {isa = PBXBuildFile; fileRef = F58D9486235F07A20016632F /* RouteView.m */; };
+		F58D948A235F22410016632F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F58D9489235F22410016632F /* CoreLocation.framework */; };
+		FD7E87C27237C5F67E287EBA /* Pods_Salehard_Hack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8505678277A866084120D6 /* Pods_Salehard_Hack.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05E9A6C641A50CB079A60455 /* Pods-Salehard Hack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salehard Hack.debug.xcconfig"; path = "Target Support Files/Pods-Salehard Hack/Pods-Salehard Hack.debug.xcconfig"; sourceTree = "<group>"; };
+		44398134CB892DEB93EB2000 /* Pods-Salehard Hack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salehard Hack.release.xcconfig"; path = "Target Support Files/Pods-Salehard Hack/Pods-Salehard Hack.release.xcconfig"; sourceTree = "<group>"; };
+		4B8505678277A866084120D6 /* Pods_Salehard_Hack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salehard_Hack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A607A9236010730081EFBB /* DataData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataData.h; sourceTree = "<group>"; };
+		A0A607AA236010730081EFBB /* DataData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataData.m; sourceTree = "<group>"; };
+		A0A607AC236012170081EFBB /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A0A607AE236033EB0081EFBB /* data2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data2.json; sourceTree = "<group>"; };
+		F520EC58235F920D00C3EF3F /* InstagramViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InstagramViewController.h; sourceTree = "<group>"; };
+		F520EC59235F920D00C3EF3F /* InstagramViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstagramViewController.m; sourceTree = "<group>"; };
+		F54AD68C235FFADA00EB9097 /* AchievmentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievmentManager.m; sourceTree = "<group>"; };
+		F54AD68D235FFADA00EB9097 /* EpisodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpisodeViewController.h; sourceTree = "<group>"; };
+		F54AD68E235FFADA00EB9097 /* TimelineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineTableViewCell.h; sourceTree = "<group>"; };
+		F54AD68F235FFADA00EB9097 /* EpisodeQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EpisodeQuizViewController.m; sourceTree = "<group>"; };
+		F54AD690235FFADA00EB9097 /* EpisodeInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpisodeInfoViewController.h; sourceTree = "<group>"; };
+		F54AD692235FFADA00EB9097 /* RouteMapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteMapViewViewController.m; sourceTree = "<group>"; };
+		F54AD693235FFADA00EB9097 /* TimelineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineTableViewCell.m; sourceTree = "<group>"; };
+		F54AD694235FFADA00EB9097 /* AchievmentManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievmentManager.h; sourceTree = "<group>"; };
+		F54AD696235FFADA00EB9097 /* RouteMapViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteMapViewViewController.h; sourceTree = "<group>"; };
+		F54AD697235FFADA00EB9097 /* EpisodeQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EpisodeQuizViewController.h; sourceTree = "<group>"; };
+		F54AD69F235FFAE700EB9097 /* AchievmentTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievmentTableViewController.h; sourceTree = "<group>"; };
+		F54AD6A0235FFAE700EB9097 /* AchievmentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievmentTableViewCell.m; sourceTree = "<group>"; };
+		F54AD6A1235FFAE700EB9097 /* AchievmentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievmentTableViewCell.h; sourceTree = "<group>"; };
+		F54AD6A2235FFAE700EB9097 /* AchievmentTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievmentTableViewController.m; sourceTree = "<group>"; };
+		F54AD6A3235FFAE700EB9097 /* TimelineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineTableViewController.h; sourceTree = "<group>"; };
+		F54AD6A7235FFB2C00EB9097 /* MainMax.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainMax.storyboard; sourceTree = "<group>"; };
+		F5684057236047A2006AA482 /* EpisodeInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EpisodeInfoViewController.m; path = ../../EpisodeInfoViewController.m; sourceTree = "<group>"; };
+		F5684058236047A2006AA482 /* MamashaCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MamashaCache.m; sourceTree = "<group>"; };
+		F5684059236047A2006AA482 /* MamashaCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MamashaCache.h; sourceTree = "<group>"; };
+		F568405A236047A2006AA482 /* TimelineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimelineTableViewController.m; path = ../../TimelineTableViewController.m; sourceTree = "<group>"; };
+		F568405E2360485B006AA482 /* EpisodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EpisodeViewController.m; path = ../../EpisodeViewController.m; sourceTree = "<group>"; };
+		F58D9464235EFF070016632F /* Salehard Hack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salehard Hack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58D9467235EFF070016632F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F58D9468235EFF070016632F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F58D946A235EFF070016632F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F58D946B235EFF070016632F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F58D946D235EFF070016632F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F58D946E235EFF070016632F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F58D9470235EFF070016632F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F58D9471235EFF070016632F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F58D9474235EFF070016632F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F58D9476235EFF080016632F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58D9479235EFF080016632F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58D947B235EFF080016632F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58D947C235EFF080016632F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F58D9483235F07510016632F /* RouteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RouteView.xib; sourceTree = "<group>"; };
+		F58D9485235F07A20016632F /* RouteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouteView.h; sourceTree = "<group>"; };
+		F58D9486235F07A20016632F /* RouteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RouteView.m; sourceTree = "<group>"; };
+		F58D9489235F22410016632F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58D9461235EFF070016632F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58D948A235F22410016632F /* CoreLocation.framework in Frameworks */,
+				FD7E87C27237C5F67E287EBA /* Pods_Salehard_Hack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F7AC320A01CD9C4C4C8E831 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05E9A6C641A50CB079A60455 /* Pods-Salehard Hack.debug.xcconfig */,
+				44398134CB892DEB93EB2000 /* Pods-Salehard Hack.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F58D945B235EFF070016632F = {
+			isa = PBXGroup;
+			children = (
+				F58D9466235EFF070016632F /* Salehard Hack */,
+				F58D9465235EFF070016632F /* Products */,
+				F58D9488235F22410016632F /* Frameworks */,
+				0F7AC320A01CD9C4C4C8E831 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		F58D9465235EFF070016632F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58D9464235EFF070016632F /* Salehard Hack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58D9466235EFF070016632F /* Salehard Hack */ = {
+			isa = PBXGroup;
+			children = (
+				F58D9467235EFF070016632F /* AppDelegate.h */,
+				F58D9468235EFF070016632F /* AppDelegate.m */,
+				F58D946A235EFF070016632F /* SceneDelegate.h */,
+				F58D946B235EFF070016632F /* SceneDelegate.m */,
+				F58D946D235EFF070016632F /* FirstViewController.h */,
+				F58D946E235EFF070016632F /* FirstViewController.m */,
+				F58D9470235EFF070016632F /* SecondViewController.h */,
+				F58D9471235EFF070016632F /* SecondViewController.m */,
+				F54AD6A1235FFAE700EB9097 /* AchievmentTableViewCell.h */,
+				F54AD6A0235FFAE700EB9097 /* AchievmentTableViewCell.m */,
+				F54AD69F235FFAE700EB9097 /* AchievmentTableViewController.h */,
+				F54AD6A2235FFAE700EB9097 /* AchievmentTableViewController.m */,
+				F54AD6A3235FFAE700EB9097 /* TimelineTableViewController.h */,
+				A0A607A9236010730081EFBB /* DataData.h */,
+				A0A607AA236010730081EFBB /* DataData.m */,
+				F5684057236047A2006AA482 /* EpisodeInfoViewController.m */,
+				F5684059236047A2006AA482 /* MamashaCache.h */,
+				F5684058236047A2006AA482 /* MamashaCache.m */,
+				F568405A236047A2006AA482 /* TimelineTableViewController.m */,
+				F58D9473235EFF070016632F /* Main.storyboard */,
+				F54AD6A7235FFB2C00EB9097 /* MainMax.storyboard */,
+				F58D9476235EFF080016632F /* Assets.xcassets */,
+				F58D9478235EFF080016632F /* LaunchScreen.storyboard */,
+				F58D947B235EFF080016632F /* Info.plist */,
+				F58D947C235EFF080016632F /* main.m */,
+				F58D9483235F07510016632F /* RouteView.xib */,
+				F58D9485235F07A20016632F /* RouteView.h */,
+				F58D9486235F07A20016632F /* RouteView.m */,
+				F520EC58235F920D00C3EF3F /* InstagramViewController.h */,
+				F520EC59235F920D00C3EF3F /* InstagramViewController.m */,
+				F54AD694235FFADA00EB9097 /* AchievmentManager.h */,
+				F54AD68C235FFADA00EB9097 /* AchievmentManager.m */,
+				F54AD690235FFADA00EB9097 /* EpisodeInfoViewController.h */,
+				F54AD697235FFADA00EB9097 /* EpisodeQuizViewController.h */,
+				F54AD68F235FFADA00EB9097 /* EpisodeQuizViewController.m */,
+				F54AD68D235FFADA00EB9097 /* EpisodeViewController.h */,
+				F54AD696235FFADA00EB9097 /* RouteMapViewViewController.h */,
+				F54AD692235FFADA00EB9097 /* RouteMapViewViewController.m */,
+				F568405E2360485B006AA482 /* EpisodeViewController.m */,
+				F54AD68E235FFADA00EB9097 /* TimelineTableViewCell.h */,
+				F54AD693235FFADA00EB9097 /* TimelineTableViewCell.m */,
+				A0A607AC236012170081EFBB /* data.json */,
+				A0A607AE236033EB0081EFBB /* data2.json */,
+			);
+			path = "Salehard Hack";
+			sourceTree = "<group>";
+		};
+		F58D9488235F22410016632F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F58D9489235F22410016632F /* CoreLocation.framework */,
+				4B8505678277A866084120D6 /* Pods_Salehard_Hack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58D9463235EFF070016632F /* Salehard Hack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58D9480235EFF080016632F /* Build configuration list for PBXNativeTarget "Salehard Hack" */;
+			buildPhases = (
+				F0543550357669B8F8364D34 /* [CP] Check Pods Manifest.lock */,
+				F58D9460235EFF070016632F /* Sources */,
+				F58D9461235EFF070016632F /* Frameworks */,
+				F58D9462235EFF070016632F /* Resources */,
+				B466C8CE4CF533CA5BF3EB58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salehard Hack";
+			productName = "Salehard Hack";
+			productReference = F58D9464235EFF070016632F /* Salehard Hack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58D945C235EFF070016632F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Vladislav Shakhray";
+				TargetAttributes = {
+					F58D9463235EFF070016632F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = F58D945F235EFF070016632F /* Build configuration list for PBXProject "Salehard Hack" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58D945B235EFF070016632F;
+			productRefGroup = F58D9465235EFF070016632F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58D9463235EFF070016632F /* Salehard Hack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58D9462235EFF070016632F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58D9484235F07510016632F /* RouteView.xib in Resources */,
+				A0A607AF236033EB0081EFBB /* data2.json in Resources */,
+				A0A607AD236012170081EFBB /* data.json in Resources */,
+				F54AD6A8235FFB2C00EB9097 /* MainMax.storyboard in Resources */,
+				F58D947A235EFF080016632F /* LaunchScreen.storyboard in Resources */,
+				F58D9477235EFF080016632F /* Assets.xcassets in Resources */,
+				F58D9475235EFF070016632F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B466C8CE4CF533CA5BF3EB58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salehard Hack/Pods-Salehard Hack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Salehard Hack/Pods-Salehard Hack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Salehard Hack/Pods-Salehard Hack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0543550357669B8F8364D34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salehard Hack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58D9460235EFF070016632F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54AD699235FFADA00EB9097 /* EpisodeQuizViewController.m in Sources */,
+				F58D9487235F07A20016632F /* RouteView.m in Sources */,
+				F58D947D235EFF080016632F /* main.m in Sources */,
+				F54AD6A6235FFAE700EB9097 /* AchievmentTableViewController.m in Sources */,
+				F54AD69C235FFADA00EB9097 /* TimelineTableViewCell.m in Sources */,
+				F58D9472235EFF070016632F /* SecondViewController.m in Sources */,
+				F54AD6A5235FFAE700EB9097 /* AchievmentTableViewCell.m in Sources */,
+				F58D9469235EFF070016632F /* AppDelegate.m in Sources */,
+				F568405C236047A2006AA482 /* MamashaCache.m in Sources */,
+				F568405B236047A2006AA482 /* EpisodeInfoViewController.m in Sources */,
+				A0A607AB236010730081EFBB /* DataData.m in Sources */,
+				F568405D236047A2006AA482 /* TimelineTableViewController.m in Sources */,
+				F58D946F235EFF070016632F /* FirstViewController.m in Sources */,
+				F54AD69B235FFADA00EB9097 /* RouteMapViewViewController.m in Sources */,
+				F568405F2360485B006AA482 /* EpisodeViewController.m in Sources */,
+				F54AD698235FFADA00EB9097 /* AchievmentManager.m in Sources */,
+				F520EC5A235F920D00C3EF3F /* InstagramViewController.m in Sources */,
+				F58D946C235EFF070016632F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F58D9473235EFF070016632F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58D9474235EFF070016632F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F58D9478235EFF080016632F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58D9479235EFF080016632F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58D947E235EFF080016632F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F58D947F235EFF080016632F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58D9481235EFF080016632F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E9A6C641A50CB079A60455 /* Pods-Salehard Hack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2KWGKUV8D;
+				INFOPLIST_FILE = "Salehard Hack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shakhrayv.Salehard-Hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58D9482235EFF080016632F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44398134CB892DEB93EB2000 /* Pods-Salehard Hack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2KWGKUV8D;
+				INFOPLIST_FILE = "Salehard Hack/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shakhrayv.Salehard-Hack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58D945F235EFF070016632F /* Build configuration list for PBXProject "Salehard Hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58D947E235EFF080016632F /* Debug */,
+				F58D947F235EFF080016632F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58D9480235EFF080016632F /* Build configuration list for PBXNativeTarget "Salehard Hack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58D9481235EFF080016632F /* Debug */,
+				F58D9482235EFF080016632F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F58D945C235EFF070016632F /* Project object */;
+}
